@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Select Personagem</title>
+  </head>
+  <body>
+    <h1>Escolha seu personagem</h1>
+    <main class="selecao-de-personagens">
+      <div class="imagem-animacao">
+        <img src="./src/img/ryuimagemdois.gif" id="imagem-animada" alt="" />
+      </div>
+      <section class="personagens">
+        <ul class="lista-de-personagens">
+          <li class="personagem-selecionado">
+            <img
+              id="minhaimagem"
+              src="./src/img/Screenshot_1.png"
+              onclick="mudarImagem()"
+              alt=""
+            />
+          </li>
+          <li class="personagem">
+            <img
+              src="./src/img/Screenshot_2.png"
+              id="nashmudar"
+              onclick="mudarImagemDois()"
+              alt=""
+            />
+          </li>
+          <li class="personagem">
+            <img
+              src="./src/img/Screenshot_3.png"
+              onclick="mudarImagemTres()"
+              alt=""
+            />
+          </li>
+          <li class="personagem">
+            <img
+              src="./src/img/Screenshot_4.png"
+              onclick="mudarImagemQuatro()"
+              alt=""
+            />
+          </li>
+          <li class="personagem">
+            <img
+              src="./src/img/Screenshot_5.png"
+              onclick="mudarImagemCinco()"
+              alt=""
+            />
+          </li>
+          <li class="personagem">
+            <img
+              src="./src/img/Screenshot_6.png"
+              onclick="mudarImagemSeis()"
+              alt=""
+            />
+          </li>
+          <li class="personagem">
+            <img
+              src="./src/img/Screenshot_7.png"
+              onclick="mudarImagemSete()"
+              alt=""
+            />
+          </li>
+          <li class="personagem">
+            <img
+              src="./src/img/Screenshot_8.png"
+              onclick="mudarImagemOito()"
+              alt=""
+            />
+          </li>
+        </ul>
+      </section>
+      <div class="descricao-imagem">
+        <div class="centralizar">
+        <img
+          class="img-descricao"
+          src="./src/img/ryu.gif"
+          id="minhaimagem2"
+          alt=""
+        />
+        <p id="description">
+          O lutador original e mais famoso “Street Fighter”. Tem grande
+          equilíbrio de poderes e usa o karatê shoto para lutar, incluindo seus
+          ataques como Hadouken e Shoryuken.
+        </p>
+      </div>
+      </div>
+    </main>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
